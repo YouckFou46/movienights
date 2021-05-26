@@ -1,0 +1,344 @@
+# Logfile created on 2021-05-25 15:46:45 +0200 by logger.rb/v1.4.2
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:46:45 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [05eeeebf] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.185
+ DEBUG [05eeeebf] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:49:57 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [345adcac] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.185
+ DEBUG [345adcac] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:51:40 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [8c7397d6] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.185
+ DEBUG [8c7397d6] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:51:56 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0743fbbb] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.185
+ DEBUG [0743fbbb] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:53:58 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [cf797401] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.185
+ DEBUG [cf797401] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:54:49 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [8da93ce9] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.185
+ DEBUG [8da93ce9] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:55:50 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6b6575b9] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.185
+ DEBUG [6b6575b9] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 15:58:51 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [78e0c0ee] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.185
+ DEBUG [78e0c0ee] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+ DEBUG [78e0c0ee] Finished in 0.932 seconds with exit status 0 (successful).
+ DEBUG [397194c5] Running /usr/bin/env which passenger as deploy@193.170.119.185
+ DEBUG [397194c5] Command: /usr/bin/env which passenger
+ DEBUG [397194c5] 	/usr/bin/passenger
+ DEBUG [397194c5] Finished in 0.127 seconds with exit status 0 (successful).
+  INFO [d242298c] Running /usr/bin/env mkdir -p /tmp as deploy@193.170.119.185
+ DEBUG [d242298c] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env mkdir -p /tmp )
+  INFO [d242298c] Finished in 0.160 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-16bca0ea17defe407721.sh 0.0%
+  INFO Uploading /tmp/git-ssh-16bca0ea17defe407721.sh 100.0%
+  INFO [9af5d2e1] Running /usr/bin/env chmod 700 /tmp/git-ssh-16bca0ea17defe407721.sh as deploy@193.170.119.185
+ DEBUG [9af5d2e1] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env chmod 700 /tmp/git-ssh-16bca0ea17defe407721.sh )
+  INFO [9af5d2e1] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [d529655b] Running /usr/bin/env git ls-remote https://github.com/YouckFou46/movienights.git HEAD as deploy@193.170.119.185
+ DEBUG [d529655b] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-16bca0ea17defe407721.sh" ; /usr/bin/env git ls-remote https://github.com/YouckFou46/movienights.git HEAD )
+ DEBUG [d529655b] 	5c4d1620b9c355b4a2bd799631f3fe69ff6967de	HEAD
+  INFO [d529655b] Finished in 0.504 seconds with exit status 0 (successful).
+  INFO [ad5a5f0a] Running /usr/bin/env mkdir -p /var/www/movienights/shared /var/www/movienights/releases as deploy@193.170.119.185
+ DEBUG [ad5a5f0a] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env mkdir -p /var/www/movienights/shared /var/www/movienights/releases )
+ DEBUG [ad5a5f0a] 	mkdir: 
+ DEBUG [ad5a5f0a] 	cannot create directory ‘/var/www/movienights’
+ DEBUG [ad5a5f0a] 	: Permission denied
+ DEBUG [ad5a5f0a] 	
+ DEBUG [ad5a5f0a] 	mkdir: 
+ DEBUG [ad5a5f0a] 	cannot create directory ‘/var/www/movienights’
+ DEBUG [ad5a5f0a] 	: Permission denied
+ DEBUG [ad5a5f0a] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-05-25 16:00:27 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c7969ee7] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as deploy@193.170.119.185
+ DEBUG [c7969ee7] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]
+ DEBUG [c7969ee7] Finished in 0.907 seconds with exit status 0 (successful).
+ DEBUG [1343c57a] Running /usr/bin/env which passenger as deploy@193.170.119.185
+ DEBUG [1343c57a] Command: /usr/bin/env which passenger
+ DEBUG [1343c57a] 	/usr/bin/passenger
+ DEBUG [1343c57a] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [6524c717] Running /usr/bin/env mkdir -p /tmp as deploy@193.170.119.185
+ DEBUG [6524c717] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env mkdir -p /tmp )
+  INFO [6524c717] Finished in 0.128 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-45935cabda191a506a7a.sh 0.0%
+  INFO Uploading /tmp/git-ssh-45935cabda191a506a7a.sh 100.0%
+  INFO [90ac76e9] Running /usr/bin/env chmod 700 /tmp/git-ssh-45935cabda191a506a7a.sh as deploy@193.170.119.185
+ DEBUG [90ac76e9] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env chmod 700 /tmp/git-ssh-45935cabda191a506a7a.sh )
+  INFO [90ac76e9] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [83abf2eb] Running /usr/bin/env git ls-remote https://github.com/YouckFou46/movienights.git HEAD as deploy@193.170.119.185
+ DEBUG [83abf2eb] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-45935cabda191a506a7a.sh" ; /usr/bin/env git ls-remote https://github.com/YouckFou46/movienights.git HEAD )
+ DEBUG [83abf2eb] 	5c4d1620b9c355b4a2bd799631f3fe69ff6967de	HEAD
+  INFO [83abf2eb] Finished in 0.390 seconds with exit status 0 (successful).
+  INFO [40a69c36] Running /usr/bin/env mkdir -p /home/deploy/movienights/shared /home/deploy/movienights/releases as deploy@193.170.119.185
+ DEBUG [40a69c36] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env mkdir -p /home/deploy/movienights/shared /home/deploy/movienights/releases )
+  INFO [40a69c36] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [af33790f] Running /usr/bin/env mkdir -p /home/deploy/movienights/shared/log /home/deploy/movienights/shared/tmp/pids /home/deploy/movienights/shared/tmp/cache /home/deploy/movienights/shared/tmp/sockets /home/deploy/movienights/shared/public/system /home/deploy/movienights/shared/vendor/bundle /home/deploy/movienights/shared/.bundle /home/deploy/movienights/shared/public/uploads /home/deploy/movienights/shared/public/assets as deploy@193.170.119.185
+ DEBUG [af33790f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env mkdir -p /home/deploy/movienights/shared/log /home/deploy/movienights/shared/tmp/pids /home/deploy/movienights/shared/tmp/cache /home/deploy/movienights/shared/tmp/sockets /home/deploy/movienights/shared/public/system /home/deploy/movienights/shared/vendor/bundle /home/deploy/movienights/shared/.bundle /home/deploy/movienights/shared/public/uploads /home/deploy/movienights/shared/public/assets )
+  INFO [af33790f] Finished in 0.128 seconds with exit status 0 (successful).
+ DEBUG [b8413035] Running [ -f /home/deploy/movienights/current/REVISION ] as deploy@193.170.119.185
+ DEBUG [b8413035] Command: [ -f /home/deploy/movienights/current/REVISION ]
+ DEBUG [b8413035] Finished in 0.084 seconds with exit status 1 (failed).
+ DEBUG [a76fa473] Running [ -f /home/deploy/movienights/repo/HEAD ] as deploy@193.170.119.185
+ DEBUG [a76fa473] Command: [ -f /home/deploy/movienights/repo/HEAD ]
+ DEBUG [a76fa473] Finished in 0.128 seconds with exit status 1 (failed).
+ DEBUG [f40f2d54] Running if test ! -d /home/deploy/movienights; then echo "Directory does not exist '/home/deploy/movienights'" 1>&2; false; fi as deploy@193.170.119.185
+ DEBUG [f40f2d54] Command: if test ! -d /home/deploy/movienights; then echo "Directory does not exist '/home/deploy/movienights'" 1>&2; false; fi
+ DEBUG [f40f2d54] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [381901fa] Running /usr/bin/env git clone --mirror https://github.com/YouckFou46/movienights.git /home/deploy/movienights/repo as deploy@193.170.119.185
+ DEBUG [381901fa] Command: cd /home/deploy/movienights && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-45935cabda191a506a7a.sh" ; /usr/bin/env git clone --mirror https://github.com/YouckFou46/movienights.git /home/deploy/movienights/repo )
+ DEBUG [381901fa] 	Cloning into bare repository '/home/deploy/movienights/repo'...
+  INFO [381901fa] Finished in 2.686 seconds with exit status 0 (successful).
+ DEBUG [88379346] Running if test ! -d /home/deploy/movienights/repo; then echo "Directory does not exist '/home/deploy/movienights/repo'" 1>&2; false; fi as deploy@193.170.119.185
+ DEBUG [88379346] Command: if test ! -d /home/deploy/movienights/repo; then echo "Directory does not exist '/home/deploy/movienights/repo'" 1>&2; false; fi
+ DEBUG [88379346] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [65438e82] Running /usr/bin/env git remote set-url origin https://github.com/YouckFou46/movienights.git as deploy@193.170.119.185
+ DEBUG [65438e82] Command: cd /home/deploy/movienights/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-45935cabda191a506a7a.sh" ; /usr/bin/env git remote set-url origin https://github.com/YouckFou46/movienights.git )
+  INFO [65438e82] Finished in 0.140 seconds with exit status 0 (successful).
+  INFO [15a7c3ac] Running /usr/bin/env git remote update --prune as deploy@193.170.119.185
+ DEBUG [15a7c3ac] Command: cd /home/deploy/movienights/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-45935cabda191a506a7a.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [15a7c3ac] 	Fetching origin
+  INFO [15a7c3ac] Finished in 0.333 seconds with exit status 0 (successful).
+ DEBUG [091f1ab0] Running if test ! -d /home/deploy/movienights/repo; then echo "Directory does not exist '/home/deploy/movienights/repo'" 1>&2; false; fi as deploy@193.170.119.185
+ DEBUG [091f1ab0] Command: if test ! -d /home/deploy/movienights/repo; then echo "Directory does not exist '/home/deploy/movienights/repo'" 1>&2; false; fi
+ DEBUG [091f1ab0] Finished in 0.132 seconds with exit status 0 (successful).
+  INFO [d5286b4c] Running /usr/bin/env mkdir -p /home/deploy/movienights/releases/20210525140030 as deploy@193.170.119.185
+ DEBUG [d5286b4c] Command: cd /home/deploy/movienights/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-45935cabda191a506a7a.sh" ; /usr/bin/env mkdir -p /home/deploy/movienights/releases/20210525140030 )
+  INFO [d5286b4c] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [01a251b5] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/movienights/releases/20210525140030 as deploy@193.170.119.185
+ DEBUG [01a251b5] Command: cd /home/deploy/movienights/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-45935cabda191a506a7a.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/deploy/movienights/releases/20210525140030 )
+  INFO [01a251b5] Finished in 0.962 seconds with exit status 0 (successful).
+ DEBUG [02333768] Running if test ! -d /home/deploy/movienights/repo; then echo "Directory does not exist '/home/deploy/movienights/repo'" 1>&2; false; fi as deploy@193.170.119.185
+ DEBUG [02333768] Command: if test ! -d /home/deploy/movienights/repo; then echo "Directory does not exist '/home/deploy/movienights/repo'" 1>&2; false; fi
+ DEBUG [02333768] Finished in 0.095 seconds with exit status 0 (successful).
+ DEBUG [b4d6b252] Running /usr/bin/env git rev-list --max-count=1 master as deploy@193.170.119.185
+ DEBUG [b4d6b252] Command: cd /home/deploy/movienights/repo && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-45935cabda191a506a7a.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [b4d6b252] 	5c4d1620b9c355b4a2bd799631f3fe69ff6967de
+ DEBUG [b4d6b252] Finished in 0.140 seconds with exit status 0 (successful).
+ DEBUG [dda0b5b5] Running if test ! -d /home/deploy/movienights/releases/20210525140030; then echo "Directory does not exist '/home/deploy/movienights/releases/20210525140030'" 1>&2; false; fi as deploy@193.170.119.185
+ DEBUG [dda0b5b5] Command: if test ! -d /home/deploy/movienights/releases/20210525140030; then echo "Directory does not exist '/home/deploy/movienights/releases/20210525140030'" 1>&2; false; fi
+ DEBUG [dda0b5b5] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [c63c576b] Running /usr/bin/env echo "5c4d1620b9c355b4a2bd799631f3fe69ff6967de" > REVISION as deploy@193.170.119.185
+ DEBUG [c63c576b] Command: cd /home/deploy/movienights/releases/20210525140030 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env echo "5c4d1620b9c355b4a2bd799631f3fe69ff6967de" > REVISION )
+  INFO [c63c576b] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO [7d06ac67] Running /usr/bin/env mkdir -p /home/deploy/movienights/releases/20210525140030 /home/deploy/movienights/releases/20210525140030/tmp /home/deploy/movienights/releases/20210525140030/public /home/deploy/movienights/releases/20210525140030/vendor as deploy@193.170.119.185
+ DEBUG [7d06ac67] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env mkdir -p /home/deploy/movienights/releases/20210525140030 /home/deploy/movienights/releases/20210525140030/tmp /home/deploy/movienights/releases/20210525140030/public /home/deploy/movienights/releases/20210525140030/vendor )
+  INFO [7d06ac67] Finished in 0.098 seconds with exit status 0 (successful).
+ DEBUG [24bb4d1a] Running [ -L /home/deploy/movienights/releases/20210525140030/log ] as deploy@193.170.119.185
+ DEBUG [24bb4d1a] Command: [ -L /home/deploy/movienights/releases/20210525140030/log ]
+ DEBUG [24bb4d1a] Finished in 0.138 seconds with exit status 1 (failed).
+ DEBUG [471edef3] Running [ -d /home/deploy/movienights/releases/20210525140030/log ] as deploy@193.170.119.185
+ DEBUG [471edef3] Command: [ -d /home/deploy/movienights/releases/20210525140030/log ]
+ DEBUG [471edef3] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [0da0e5e1] Running /usr/bin/env rm -rf /home/deploy/movienights/releases/20210525140030/log as deploy@193.170.119.185
+ DEBUG [0da0e5e1] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env rm -rf /home/deploy/movienights/releases/20210525140030/log )
+  INFO [0da0e5e1] Finished in 0.144 seconds with exit status 0 (successful).
+  INFO [b3deaf02] Running /usr/bin/env ln -s /home/deploy/movienights/shared/log /home/deploy/movienights/releases/20210525140030/log as deploy@193.170.119.185
+ DEBUG [b3deaf02] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env ln -s /home/deploy/movienights/shared/log /home/deploy/movienights/releases/20210525140030/log )
+  INFO [b3deaf02] Finished in 0.100 seconds with exit status 0 (successful).
+ DEBUG [fa0ca311] Running [ -L /home/deploy/movienights/releases/20210525140030/tmp/pids ] as deploy@193.170.119.185
+ DEBUG [fa0ca311] Command: [ -L /home/deploy/movienights/releases/20210525140030/tmp/pids ]
+ DEBUG [fa0ca311] Finished in 0.135 seconds with exit status 1 (failed).
+ DEBUG [63b127c2] Running [ -d /home/deploy/movienights/releases/20210525140030/tmp/pids ] as deploy@193.170.119.185
+ DEBUG [63b127c2] Command: [ -d /home/deploy/movienights/releases/20210525140030/tmp/pids ]
+ DEBUG [63b127c2] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [ed79befb] Running /usr/bin/env rm -rf /home/deploy/movienights/releases/20210525140030/tmp/pids as deploy@193.170.119.185
+ DEBUG [ed79befb] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env rm -rf /home/deploy/movienights/releases/20210525140030/tmp/pids )
+  INFO [ed79befb] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO [4faaf2a3] Running /usr/bin/env ln -s /home/deploy/movienights/shared/tmp/pids /home/deploy/movienights/releases/20210525140030/tmp/pids as deploy@193.170.119.185
+ DEBUG [4faaf2a3] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env ln -s /home/deploy/movienights/shared/tmp/pids /home/deploy/movienights/releases/20210525140030/tmp/pids )
+  INFO [4faaf2a3] Finished in 0.091 seconds with exit status 0 (successful).
+ DEBUG [72e325b7] Running [ -L /home/deploy/movienights/releases/20210525140030/tmp/cache ] as deploy@193.170.119.185
+ DEBUG [72e325b7] Command: [ -L /home/deploy/movienights/releases/20210525140030/tmp/cache ]
+ DEBUG [72e325b7] Finished in 0.140 seconds with exit status 1 (failed).
+ DEBUG [f7daf329] Running [ -d /home/deploy/movienights/releases/20210525140030/tmp/cache ] as deploy@193.170.119.185
+ DEBUG [f7daf329] Command: [ -d /home/deploy/movienights/releases/20210525140030/tmp/cache ]
+ DEBUG [f7daf329] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [89ba2ea4] Running /usr/bin/env rm -rf /home/deploy/movienights/releases/20210525140030/tmp/cache as deploy@193.170.119.185
+ DEBUG [89ba2ea4] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env rm -rf /home/deploy/movienights/releases/20210525140030/tmp/cache )
+  INFO [89ba2ea4] Finished in 0.185 seconds with exit status 0 (successful).
+  INFO [20e9588f] Running /usr/bin/env ln -s /home/deploy/movienights/shared/tmp/cache /home/deploy/movienights/releases/20210525140030/tmp/cache as deploy@193.170.119.185
+ DEBUG [20e9588f] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env ln -s /home/deploy/movienights/shared/tmp/cache /home/deploy/movienights/releases/20210525140030/tmp/cache )
+  INFO [20e9588f] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [4e1d64a1] Running [ -L /home/deploy/movienights/releases/20210525140030/tmp/sockets ] as deploy@193.170.119.185
+ DEBUG [4e1d64a1] Command: [ -L /home/deploy/movienights/releases/20210525140030/tmp/sockets ]
+ DEBUG [4e1d64a1] Finished in 0.131 seconds with exit status 1 (failed).
+ DEBUG [61e66dc4] Running [ -d /home/deploy/movienights/releases/20210525140030/tmp/sockets ] as deploy@193.170.119.185
+ DEBUG [61e66dc4] Command: [ -d /home/deploy/movienights/releases/20210525140030/tmp/sockets ]
+ DEBUG [61e66dc4] Finished in 0.099 seconds with exit status 1 (failed).
+  INFO [f0b47393] Running /usr/bin/env ln -s /home/deploy/movienights/shared/tmp/sockets /home/deploy/movienights/releases/20210525140030/tmp/sockets as deploy@193.170.119.185
+ DEBUG [f0b47393] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env ln -s /home/deploy/movienights/shared/tmp/sockets /home/deploy/movienights/releases/20210525140030/tmp/sockets )
+  INFO [f0b47393] Finished in 0.143 seconds with exit status 0 (successful).
+ DEBUG [97f2d195] Running [ -L /home/deploy/movienights/releases/20210525140030/public/system ] as deploy@193.170.119.185
+ DEBUG [97f2d195] Command: [ -L /home/deploy/movienights/releases/20210525140030/public/system ]
+ DEBUG [97f2d195] Finished in 0.175 seconds with exit status 1 (failed).
+ DEBUG [9070259a] Running [ -d /home/deploy/movienights/releases/20210525140030/public/system ] as deploy@193.170.119.185
+ DEBUG [9070259a] Command: [ -d /home/deploy/movienights/releases/20210525140030/public/system ]
+ DEBUG [9070259a] Finished in 0.148 seconds with exit status 1 (failed).
+  INFO [135b5006] Running /usr/bin/env ln -s /home/deploy/movienights/shared/public/system /home/deploy/movienights/releases/20210525140030/public/system as deploy@193.170.119.185
+ DEBUG [135b5006] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env ln -s /home/deploy/movienights/shared/public/system /home/deploy/movienights/releases/20210525140030/public/system )
+  INFO [135b5006] Finished in 0.091 seconds with exit status 0 (successful).
+ DEBUG [ed7fcc0d] Running [ -L /home/deploy/movienights/releases/20210525140030/vendor/bundle ] as deploy@193.170.119.185
+ DEBUG [ed7fcc0d] Command: [ -L /home/deploy/movienights/releases/20210525140030/vendor/bundle ]
+ DEBUG [ed7fcc0d] Finished in 0.140 seconds with exit status 1 (failed).
+ DEBUG [40e100d9] Running [ -d /home/deploy/movienights/releases/20210525140030/vendor/bundle ] as deploy@193.170.119.185
+ DEBUG [40e100d9] Command: [ -d /home/deploy/movienights/releases/20210525140030/vendor/bundle ]
+ DEBUG [40e100d9] Finished in 0.203 seconds with exit status 1 (failed).
+  INFO [3cadbc08] Running /usr/bin/env ln -s /home/deploy/movienights/shared/vendor/bundle /home/deploy/movienights/releases/20210525140030/vendor/bundle as deploy@193.170.119.185
+ DEBUG [3cadbc08] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env ln -s /home/deploy/movienights/shared/vendor/bundle /home/deploy/movienights/releases/20210525140030/vendor/bundle )
+  INFO [3cadbc08] Finished in 0.133 seconds with exit status 0 (successful).
+ DEBUG [24dd5f44] Running [ -L /home/deploy/movienights/releases/20210525140030/.bundle ] as deploy@193.170.119.185
+ DEBUG [24dd5f44] Command: [ -L /home/deploy/movienights/releases/20210525140030/.bundle ]
+ DEBUG [24dd5f44] Finished in 0.091 seconds with exit status 1 (failed).
+ DEBUG [ac02cc3e] Running [ -d /home/deploy/movienights/releases/20210525140030/.bundle ] as deploy@193.170.119.185
+ DEBUG [ac02cc3e] Command: [ -d /home/deploy/movienights/releases/20210525140030/.bundle ]
+ DEBUG [ac02cc3e] Finished in 0.140 seconds with exit status 1 (failed).
+  INFO [73c487e2] Running /usr/bin/env ln -s /home/deploy/movienights/shared/.bundle /home/deploy/movienights/releases/20210525140030/.bundle as deploy@193.170.119.185
+ DEBUG [73c487e2] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env ln -s /home/deploy/movienights/shared/.bundle /home/deploy/movienights/releases/20210525140030/.bundle )
+  INFO [73c487e2] Finished in 0.099 seconds with exit status 0 (successful).
+ DEBUG [8ff31806] Running [ -L /home/deploy/movienights/releases/20210525140030/public/uploads ] as deploy@193.170.119.185
+ DEBUG [8ff31806] Command: [ -L /home/deploy/movienights/releases/20210525140030/public/uploads ]
+ DEBUG [8ff31806] Finished in 0.158 seconds with exit status 1 (failed).
+ DEBUG [7663cfa6] Running [ -d /home/deploy/movienights/releases/20210525140030/public/uploads ] as deploy@193.170.119.185
+ DEBUG [7663cfa6] Command: [ -d /home/deploy/movienights/releases/20210525140030/public/uploads ]
+ DEBUG [7663cfa6] Finished in 0.096 seconds with exit status 1 (failed).
+  INFO [032bba25] Running /usr/bin/env ln -s /home/deploy/movienights/shared/public/uploads /home/deploy/movienights/releases/20210525140030/public/uploads as deploy@193.170.119.185
+ DEBUG [032bba25] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env ln -s /home/deploy/movienights/shared/public/uploads /home/deploy/movienights/releases/20210525140030/public/uploads )
+  INFO [032bba25] Finished in 0.145 seconds with exit status 0 (successful).
+ DEBUG [fd8c4b33] Running [ -L /home/deploy/movienights/releases/20210525140030/public/assets ] as deploy@193.170.119.185
+ DEBUG [fd8c4b33] Command: [ -L /home/deploy/movienights/releases/20210525140030/public/assets ]
+ DEBUG [fd8c4b33] Finished in 0.178 seconds with exit status 1 (failed).
+ DEBUG [05dbd6e9] Running [ -d /home/deploy/movienights/releases/20210525140030/public/assets ] as deploy@193.170.119.185
+ DEBUG [05dbd6e9] Command: [ -d /home/deploy/movienights/releases/20210525140030/public/assets ]
+ DEBUG [05dbd6e9] Finished in 0.140 seconds with exit status 1 (failed).
+  INFO [ff52b962] Running /usr/bin/env ln -s /home/deploy/movienights/shared/public/assets /home/deploy/movienights/releases/20210525140030/public/assets as deploy@193.170.119.185
+ DEBUG [ff52b962] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; /usr/bin/env ln -s /home/deploy/movienights/shared/public/assets /home/deploy/movienights/releases/20210525140030/public/assets )
+  INFO [ff52b962] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [47c12dc1] Running if test ! -d /home/deploy/movienights/releases/20210525140030; then echo "Directory does not exist '/home/deploy/movienights/releases/20210525140030'" 1>&2; false; fi as deploy@193.170.119.185
+ DEBUG [47c12dc1] Command: if test ! -d /home/deploy/movienights/releases/20210525140030; then echo "Directory does not exist '/home/deploy/movienights/releases/20210525140030'" 1>&2; false; fi
+ DEBUG [47c12dc1] Finished in 0.142 seconds with exit status 0 (successful).
+  INFO [f5d91336] Running $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true as deploy@193.170.119.185
+ DEBUG [f5d91336] Command: cd /home/deploy/movienights/releases/20210525140030 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; $HOME/.rbenv/bin/rbenv exec bundle config --local deployment true )
+  INFO [f5d91336] Finished in 0.253 seconds with exit status 0 (successful).
+  INFO [e5d3a7f2] Running $HOME/.rbenv/bin/rbenv exec bundle config --local path /home/deploy/movienights/shared/bundle as deploy@193.170.119.185
+ DEBUG [e5d3a7f2] Command: cd /home/deploy/movienights/releases/20210525140030 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; $HOME/.rbenv/bin/rbenv exec bundle config --local path /home/deploy/movienights/shared/bundle )
+  INFO [e5d3a7f2] Finished in 0.299 seconds with exit status 0 (successful).
+  INFO [e90bd971] Running $HOME/.rbenv/bin/rbenv exec bundle config --local without development:test as deploy@193.170.119.185
+ DEBUG [e90bd971] Command: cd /home/deploy/movienights/releases/20210525140030 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; $HOME/.rbenv/bin/rbenv exec bundle config --local without development:test )
+  INFO [e90bd971] Finished in 0.290 seconds with exit status 0 (successful).
+ DEBUG [bb0b23a8] Running if test ! -d /home/deploy/movienights/releases/20210525140030; then echo "Directory does not exist '/home/deploy/movienights/releases/20210525140030'" 1>&2; false; fi as deploy@193.170.119.185
+ DEBUG [bb0b23a8] Command: if test ! -d /home/deploy/movienights/releases/20210525140030; then echo "Directory does not exist '/home/deploy/movienights/releases/20210525140030'" 1>&2; false; fi
+ DEBUG [bb0b23a8] Finished in 0.130 seconds with exit status 0 (successful).
+ DEBUG [add15f34] Running $HOME/.rbenv/bin/rbenv exec bundle check as deploy@193.170.119.185
+ DEBUG [add15f34] Command: cd /home/deploy/movienights/releases/20210525140030 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; $HOME/.rbenv/bin/rbenv exec bundle check )
+ DEBUG [add15f34] 	The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+ DEBUG [add15f34] 	The following gems are missing
+ * rake (13.0.3)
+ * concurrent-ruby (1.1.8)
+ * i18n (1.8.8)
+ * minitest (5.14.3)
+ DEBUG [add15f34] 	 * tzinfo (2.0.4)
+ * zeitwerk (2.4.2)
+ * activesupport (6.1.1)
+ * builder (3.2.4)
+ DEBUG [add15f34] 	 * erubi (1.10.0)
+ * mini_portile2 (2.5.0)
+ * racc (1.5.2)
+ * nokogiri (1.11.1)
+ * rails-dom-testing (2.0.3)
+ * crass (1.0.6)
+ * loofah (2.9.0)
+ * rails-html-sanitizer (1.3.0)
+ DEBUG [add15f34] 	 * actionview (6.1.1)
+ * rack (2.2.3)
+ * rack-test (1.1.0)
+ DEBUG [add15f34] 	 * actionpack (6.1.1)
+ DEBUG [add15f34] 	 * nio4r (2.5.4)
+ DEBUG [add15f34] 	 * websocket-extensions (0.1.5)
+ DEBUG [add15f34] 	 * websocket-driver (0.7.3)
+ * actioncable (6.1.1)
+ DEBUG [add15f34] 	 * globalid (0.4.2)
+ DEBUG [add15f34] 	 * activejob (6.1.1)
+ DEBUG [add15f34] 	 * activemodel (6.1.1)
+ DEBUG [add15f34] 	 * activerecord (6.1.1)
+ DEBUG [add15f34] 	 * mimemagic (0.3.5)
+ DEBUG [add15f34] 	 * marcel (0.3.3)
+ DEBUG [add15f34] 	 * activestorage (6.1.1)
+ * mini_mime (1.0.2)
+ DEBUG [add15f34] 	 * mail (2.7.1)
+ * actionmailbox (6.1.1)
+ DEBUG [add15f34] 	 * actionmailer (6.1.1)
+ * actiontext (6.1.1)
+ DEBUG [add15f34] 	 * acts_as_votable (0.13.1)
+ DEBUG [add15f34] 	 * public_suffix (4.0.6)
+ * addressable (2.7.0)
+ DEBUG [add15f34] 	 * net-ssh (6.1.0)
+ * net-scp (3.0.0)
+ * sshkit (1.21.2)
+ DEBUG [add15f34] 	 * airbrussh (1.4.0)
+ * bcrypt (3.1.16)
+ DEBUG [add15f34] 	 * msgpack (1.4.2)
+ DEBUG [add15f34] 	 * bootsnap (1.7.1)
+ * capistrano (3.16.0)
+ DEBUG [add15f34] 	 * capistrano-bundler (2.0.1)
+ * capistrano-passenger (0.2.1)
+ DEBUG [add15f34] 	 * capistrano-rails (1.6.1)
+ DEBUG [add15f34] 	 * capistrano-rbenv (2.2.0)
+ * orm_adapter (0.5.0)
+ DEBUG [add15f34] 	 * method_source (1.0.0)
+ DEBUG [add15f34] 	 * thor (1.1.0)
+ DEBUG [add15f34] 	 * railties (6.1.1)
+ * responders (3.0.1)
+ DEBUG [add15f34] 	 * warden (1.2.9)
+ DEBUG [add15f34] 	 * devise (4.7.3)
+ * unf_ext (0.0.7.7)
+ DEBUG [add15f34] 	 * unf (0.1.4)
+ DEBUG [add15f34] 	 * domain_name (0.5.20190701)
+ DEBUG [add15f34] 	 * ffi (1.14.2)
+ * ffi-compiler (1.0.1)
+ DEBUG [add15f34] 	 * figaro (1.2.0)
+ * http-cookie (1.0.3)
+ DEBUG [add15f34] 	 * http-form_data (2.3.0)
+ * http-parser (1.2.3)
+ DEBUG [add15f34] 	 * http (4.4.1)
+ * jbuilder (2.11.2)
+ DEBUG [add15f34] 	 * pg (1.2.3)
+ * puma (4.3.7)
+ DEBUG [add15f34] 	 * rack-proxy (0.6.5)
+ * sprockets (4.0.2)
+ DEBUG [add15f34] 	 * sprockets-rails (3.2.2)
+ * rails (6.1.1)
+ DEBUG [add15f34] 	 * sassc (2.4.0)
+ DEBUG [add15f34] 	 * tilt (2.0.10)
+ * sassc-rails (2.1.2)
+ DEBUG [add15f34] 	 * sass-rails (6.0.0)
+ DEBUG [add15f34] 	 * turbolinks-source (5.2.0)
+ DEBUG [add15f34] 	 * turbolinks (5.2.1)
+ * webpacker (4.3.0)
+ DEBUG [add15f34] 	Install missing gems with `bundle install`
+ DEBUG [add15f34] Finished in 0.455 seconds with exit status 1 (failed).
+  INFO [bb6b6562] Running $HOME/.rbenv/bin/rbenv exec bundle install --jobs 4 --quiet as deploy@193.170.119.185
+ DEBUG [bb6b6562] Command: cd /home/deploy/movienights/releases/20210525140030 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.7.1" ; $HOME/.rbenv/bin/rbenv exec bundle install --jobs 4 --quiet )
+ DEBUG [bb6b6562] 	Your bundle is locked to mimemagic (0.3.5), but that version could not be found
+in any of the sources listed in your Gemfile. If you haven't changed sources,
+that means the author of mimemagic (0.3.5) has removed it. You'll need to update
+your bundle to a version other than mimemagic (0.3.5) that hasn't been removed
+in order to install.
